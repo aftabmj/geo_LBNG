@@ -1,0 +1,27 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "hero": 4,
+    "studio": 3
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "hero": {
+      "1": "{\"id\":1,\"name\":\"Superman\",\"studioId\":1}",
+      "2": "{\"id\":2,\"name\":\"Spiderman\",\"studioId\":2}",
+      "3": "{\"id\":3,\"name\":\"Batman\",\"studioId\":1}"
+    },
+    "studio": {
+      "1": "{\"name\":\"DC\",\"id\":1}",
+      "2": "{\"name\":\"Marvel\",\"id\":2}"
+    }
+  }
+}

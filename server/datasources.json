@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "db.json"
+  },
+  "geo": {
+    "host": "localhost",
+    "port": 1433,
+    "url": "",
+    "database": "FileUploadDB",
+    "password": "aaa",
+    "name": "geo",
+    "user": "geo",
+    "connector": "mssql"
+  }
+}

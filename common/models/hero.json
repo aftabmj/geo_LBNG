@@ -1,0 +1,28 @@
+{
+  "name": "hero",
+  "plural": "heroes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "studioId": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "studio": {
+      "type": "belongsTo",
+      "model": "studio",
+      "foreignKey": "studioId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
